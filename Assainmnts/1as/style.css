@@ -1,0 +1,698 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+    background-color: #551ba9;
+}
+
+.Img-1 {
+    width: 60px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 15px;
+}
+
+.link li,
+a {
+    display: inline;
+    list-style: none;
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+}
+
+.btn-1 {
+    color: whitesmoke;
+    width: 90px;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    background-color: rgb(55, 175, 223);
+}
+
+/* ------------------ Navbar End ------------------ */
+
+
+/* ------------------ Hero Section Start ------------------ */
+
+.hero {
+    display: flex;
+    height: 85vh;
+}
+
+.heroTxt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    padding: 0 200px 0 200px;
+}
+
+.Heading-1 {
+    font-size: 39px;
+    color: white;
+    width: 320px;
+}
+
+.Para-1 {
+    color: white;
+    font-size: small;
+    width: 340px;
+}
+
+.heroImg {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-2 {
+    width: 200px;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    background-color: rgb(55, 175, 223);
+    color: whitesmoke;
+    margin-left: -135px;
+}
+
+.Img-2 {
+    width: 400px;
+}
+
+/* ------------------ Hero Section End ------------------ */
+
+
+/* ------------------ First Section Start ------------------ */
+
+.first {
+    background-color: white;
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: 100vh;
+}
+
+.firstImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.Img-3 {
+    width: 400px;
+}
+
+.firstTxt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.Heading-2 {
+    margin: 20px 0 10px -80px;
+    font-size: 30px;
+}
+
+.subHead {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.icon-1 {
+    color: green;
+}
+
+.icon-2 {
+    color: olive;
+}
+
+.icon-3 {
+    color: blueviolet;
+}
+
+.Para-2 {
+    font-size: 14px;
+    width: 65%;
+}
+
+/* ------------------ First Section End ------------------ */
+
+
+/* ------------------ Second Section Start ------------------ */
+
+.second {
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.Heading-4 {
+    margin-top: -125px;
+    width: 450px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.allCards {
+    display: flex;
+    gap: 15px;
+}
+
+.card {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 280px;
+    gap: 40px;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.2);
+    padding: 30px 0 0 0;
+    border-radius: 4px;
+}
+
+.cardImg {
+    text-align: center;
+}
+
+.icon-4 {
+    color: #e2b3b3;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.icon-5 {
+    color: #a97a36;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.icon-6 {
+    color: #a7cdcb;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.icon-7 {
+    color: #cc5edf;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.cardText {
+    padding: 20px 10px;
+    height: 100%;
+    margin-top: 10px;
+
+}
+
+.cardText:hover {
+    background-color: #551ba9;
+    color: white;
+}
+
+.Heading-5 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.para-3 {
+    font-size: 14px;
+    text-align: center;
+}
+
+/* ------------------ Second Section End ------------------ */
+
+
+/* ------------------ Third Section Start ------------------ */
+
+.Third {
+    background-color: white;
+    height: 100vh;
+}
+
+.Heading-6 {
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.toogle {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.one {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.box {
+    width: 36px;
+    height: 15px;
+    background-color: #cdeaf7;
+    border-radius: 50px;
+}
+
+.slide {
+    width: 50%;
+    height: 15px;
+    background-color: #42b4ee;
+    border-radius: 50px;
+}
+
+.two {
+    font-size: 14px;
+}
+
+.pricePlan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 100px 0 0 0;
+}
+
+.pp1 {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.2);
+    padding: 20px;
+    cursor: pointer;
+    height: 360px;
+}
+
+.pp1:hover {
+    background-color: #551ba9;
+    color: white;
+    /* cursor: pointer; */
+}
+
+
+.one-1 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 340;
+}
+
+.divider {
+    margin: 0 auto;
+    border: 1px solid #9b9696;
+    width: 40%;
+}
+
+.two-1 {
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.Text {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    line-height: 36px;
+}
+
+.para-4 {
+    font-size: 12px;
+
+}
+
+.button {
+    margin: 0 auto;
+}
+
+.btn-3 {
+    text-transform: uppercase;
+    width: 170px;
+    font-size: 12px;
+    height: 25px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+}
+
+.fourth {
+    background-color: white;
+    height: 100vh;
+}
+
+.Heading-7 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.para-5 {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 70px;
+    padding: 10px;
+}
+
+.cCard {
+    width: 330px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid gainsboro;
+    box-shadow: 0 0 10px rgba(12, 0, 0, 0.4);
+    border-radius: 5px;
+}
+
+.cCard:hover {
+    border-bottom: 2px solid #f24227;
+}
+
+.icon-8 {
+    color: #a9c9d9;
+    padding-left: 10px;
+}
+
+dd {
+    margin-top: 8px;
+    padding: 0 20px 0 20px;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+.detail {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.cText {
+    padding-top: 17px;
+}
+
+.Img-4 {
+    margin-top: 8px;
+    width: 74px;
+}
+
+.para-6 {
+    font-size: 16px;
+    margin-left: 12px;
+}
+
+.para-7 {
+    font-size: 14px;
+    margin-left: 12px;
+}
+
+.box-1 {
+    display: flex;
+    gap: 7px;
+    margin-top: 30px;
+    height: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.one-2 {
+    width: 10px;
+    background-color: #32b2ed;
+    border-radius: 50px;
+}
+
+.one-3 {
+    width: 26px;
+}
+
+/* ------------------ Fourth Section End ------------------ */
+
+
+/* ------------------ Fifth Section Start ------------------ */
+
+.Fifth {
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+}
+
+.Heading-8 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.imgCard {
+    display: flex;
+    height: 430px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.one-one {
+    width: 440px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(212, 210, 210);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(21, 0, 0, 0.3);
+}
+
+
+.one-one2 {
+    width: 440px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(189, 187, 187);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(21, 0, 0, 0.2);
+}
+
+.Img-5 {
+    width: 430px;
+    border-radius: 10px 10px 0 0;
+}
+
+.Img-5-2 {
+    width: 430px;
+    border-radius: 10px 10px 0 0;
+}
+
+.two-3 {
+    display: flex;
+    /* gap: 30px; */
+    justify-content: space-around;
+    align-items: center;
+    color: #babdbe;
+    background-color: white;
+}
+
+.txt {
+    font-size: 12px;
+}
+
+.sLast {
+    font-size: 10px;
+    padding: 12px;
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+}
+
+.Heading-9 {
+    font-size: 14px;
+    padding-bottom: 7px;
+}
+
+.para-8 {
+    font-size: 12px;
+    color: #babdbe;
+}
+
+.btn-4 {
+    width: 30%;
+    color: white;
+    background-color: #3ba0d5;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    height: 30px;
+    border-radius: 6px;
+}
+
+/* ------------------ Sixth Section Start ------------------ */
+.Sixth {
+    background-color: rgb(66, 65, 65);
+}
+
+.footer {
+    width: 100%;
+    padding-top: 60px;
+}
+
+.footer-sec {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.Img-6 {
+    margin-top: 0;
+    width: 60px;
+}
+
+.fPara {
+    width: 300px;
+}
+
+.para-9 {
+    font-size: 13;
+    color: #222324;
+}
+
+.icon-9,
+.icon-10,
+.icon-11,
+.icon-12 {
+    padding: 10px;
+    color: rgb(211, 211, 215);
+}
+
+.icon-9:hover {
+    background-color: white;
+    color: rgb(10, 10, 129);
+}
+
+.icon-10:hover {
+    background-color: white;
+    color: rgb(10, 10, 129);
+}
+
+.icon-11:hover {
+    background-color: white;
+    color: rgb(10, 10, 129);
+}
+
+.icon-12:hover {
+    background-color: white;
+    color: rgb(10, 10, 129);
+}
+
+.Para-11 {
+    margin-bottom: 7px;
+}
+
+.col1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 20%;
+}
+
+.Heading-10 {
+    font-size: 20px;
+    color: white;
+}
+
+.para-10 {
+    margin-top: 8px;
+    color: #18191a;
+    line-height: 20px;
+    font-size: 13px;
+}
+
+.para-11 {
+    width: 150px;
+    margin-bottom: 12px;
+    margin-top: 8px;
+}
+
+.fIcon {
+    display: flex;
+    gap: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fInput {
+    display: flex;
+
+}
+
+.mail {
+    background-color: transparent;
+    width: 130px;
+    padding: 5px;
+    border: 1px solid #6a6a6d;
+    border-radius: 3px 0 0 3px;
+}
+
+.btn-5 {
+    width: 55px;
+    background-color: #42b4ee;
+    color: white;
+    border-radius: 0 3px 3px 0;
+    border: none;
+    outline: none;
+}
+
+.fLine {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.hLine {
+    background-color: #bcbebe;
+    height: 1px;
+    width: 75%;
+}
+
+.Heading-11 {
+    text-align: center;
+    padding-top: 10px;
+    color: #a2a4a5;
+    padding-bottom: 10px;
+}
