@@ -1,4 +1,295 @@
-@media screen and (max-width: 320px) {
+/* tab view */
+
+
+@media (min-width: 480px) and (max-width:760px) {
+   .nav {
+      display: block;
+   }
+   .hero {
+      width: 100%;
+      height: 100vh;
+      margin-bottom: 30px;
+   }
+   .btn-2{
+      margin-top: 20px;
+   }
+   .Img-2{
+      width: 300px;
+      height: 310px;
+   }
+   .first{
+      width: 100%;
+      height: 100vh;
+      margin-bottom: 40px;
+   }
+   .Img-3 {
+      width: 280px;
+   }
+   .firstTxt{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 40px;
+        padding-left: 10px;
+   }
+   .Heading-2{
+        font-size: 24px;
+   }
+   .subHead {
+      font-size: 16px;
+      width: 100%;
+      padding: 6px;
+      margin-left: 40px;
+      padding-left: 10px;
+   }
+   .icon-1,.icon-2,.icon-3{
+      padding-right: 6px;
+   }
+   .second {
+      width: 100%;
+      height: 100%;
+      margin-top: -20px;
+   }
+   .Heading-4{
+      font-size: 24px;
+      margin-top: 40px;
+   }
+   .allCards {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+   }
+   .card {
+      width: 20%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+   }
+   Heading-5{
+      font-size: 14px;
+   }
+   .para-3 {
+      padding-top: 10px;
+      width: 100%;
+      text-align:center;
+      font-size: 12px;
+   }
+   .Third{
+      width: 100%;  
+   }
+   .Heading-6 {
+      font-size: 24px;
+   }
+   .one{
+      margin-right: 10px;
+   }
+   .pricePlan {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+   }
+   .pp1 {
+      margin-bottom: 60px;
+      border-radius: 10px;
+      width: 30%;
+      height: 260px;
+   }
+   .fourth {
+      width: 100%;
+      height: 100%;
+   }
+   .Heading-7 {
+      font-size: 20px;
+   }
+   .para-5 {
+      font-size: 14px;
+      text-align: center;
+      width: 300px;
+   }
+   .review {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+   }
+   .cCard {
+      width: 80%;
+      height: 220px;
+      margin-top: 10px;
+      padding-bottom: 20px;
+   }
+   .Fifth {
+      width: 100%;
+      height: 100%;
+      margin-top: 60px;
+   }
+   .Heading-8 {
+      font-size: 24px;
+   }
+   .imgCard {
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: -30px;
+   }
+
+   .one-one {
+      width: 46%;
+      height: 76%;
+      border: 1px solid rgb(189, 187, 187);
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(21, 0, 0, 0.2);
+   }
+
+   .Img-5 {
+      width: 100%;
+      height: 170px;
+   }
+
+   .txt {
+      font-size: 12px;
+   }
+
+   .Heading-9 {
+      font-size: 12px;
+   }
+
+   .para-8 {
+      font-size: 9px;
+   }
+
+   .Img-5-2 {
+      width: 100%;
+      height: 170px;
+   }
+
+   .one-one2 {
+      width: 46%;
+      height: 76%;
+      border: 1px solid rgb(189, 187, 187);
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(21, 0, 0, 0.2);
+   }
+   .Sixth{
+      width: 100%;
+   }
+   
+      .footer {
+         background-color: rgba(19, 1, 1, 0.631);
+         width: 100%;
+         height: 100%;
+      }
+   
+   
+      .footer-sec {
+         display: flex;
+         justify-content: space-around;
+         padding-left: 30px;
+         width: 100%
+      }
+   
+      .Img-6 {
+         width: 80px;
+         margin-left: -20px;
+      }
+   
+      .para-9 {
+         font-size: 8px;
+         color: #dcdee0;
+         width: 130px;
+         margin-bottom: 20px;
+      }
+   
+      .para-10 {
+         color: rgba(194, 190, 190, 0.631);
+         width: 200px;
+         font-size: 14px;
+         line-height: 8px;
+      }
+   
+      .Heading-10 {
+         font-size: 14px;
+         width: 200px;
+      }
+   
+      .Heading-11 {
+         font-size: 10px;
+      }
+   
+      .col1 {
+         width: 20%;
+         margin-top: -30px;
+      }
+   
+      .col2 {
+         width: 20%;
+         padding-bottom: 20px;
+      }
+   
+      .col3 {
+         width: 20%;
+         padding-bottom: 20px;
+      }
+   
+      .col4 {
+         width: 20%;
+         padding-bottom: 10px;
+      }
+   
+      .icon-9,
+      .icon-10,
+      .icon-11,
+      .icon-12 {
+         width: 20px;
+         padding: 4px;
+         color: rgb(211, 211, 215);
+         margin-right: 20px;
+      }
+   
+      .fLine {
+         background-color: rgba(19, 1, 1, 0.631);
+      }
+   
+      .Heading-11 {
+         background-color: rgba(19, 1, 1, 0.631);
+      }
+   
+      .para-10-2 {
+         color: rgba(177, 173, 173, 0.631);
+         position: 10px;
+         font-size: 10px;
+         width: 80px;
+      }
+   
+      .mail {
+         width: 60px;
+         height: 30px;
+         
+      }
+   
+      .fInput {
+         margin-right: 20px;
+         padding-top: 20px;
+      }
+   
+      .btn-5 {
+         width: 60px;
+         height: 30px;
+      }
+   
+}
+
+
+
+/* mobile view */
+
+@media (min-width: 320px) and (max-width:425px) {
    .nav {
       display: none;
    }
@@ -6,116 +297,405 @@
    .hero {
       width: 100%;
       height: 100vh;
-      display: block;
-      text-align: left;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 0;
+      padding-top: 0;
    }
 
    .Heading-1 {
       margin-top: 80px;
-      font-size: 20px;
-      width: 130px;
-      margin: 0px;
-      margin-right: 180px;
+      font-size: 24px;
+      width: 100%;
+      margin-right: 140px;
       padding: 10px;
    }
 
    .Para-1 {
       font-size: x-small;
-      width: 140px;
+      width: 100%;
       margin-right: 170px;
    }
 
    .btn-2 {
-      width: 62px;
+      width: 80px;
       height: 20px;
       font-size: 8px;
-      margin-left: -160px;
+      margin-top: 10px;
+      margin-left: -120px;
    }
 
    .Img-2 {
-      width: 210px;
+      width: 240px;
       height: 170px;
-      margin-top: 10px;
-      margin-left: 130px;
+      margin-top: 60px;
    }
 
    .first {
       width: 100%;
+      height: 100vh;
       margin: 0;
       padding: 0;
-      height: 100vh;
-      display: block;
-      text-align: center;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+      padding-bottom: 30px;
+      margin-bottom: 30px;
    }
 
    .Img-3 {
-      width: 190px;
-      margin-left: 120px;
-      margin-top: 20px;
+      width: 200px;
+      margin-top: 100px;
    }
 
    .firstTxt {
-      width: 90px;
-      display: block;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
-      text-align: center;
-   }
-
-   .head-2 {
-      display: block;
    }
 
    .Heading-2 {
-      font-size: 14px;
-      width: 248px;
-      margin-left: 3px;
+      font-size: 16px;
+      width: 100%;
+      margin-left: 40px;
 
    }
 
    .subHead {
       font-size: 10px;
+      width: 100%;
       margin: 60px;
       margin-top: 0px;
+      padding: 10px;
       margin-bottom: 20px;
-      background-color: white;
+   }
+
+   .icon-1 {
+      padding: 4px;
+   }
+
+   .icon-2 {
+      padding-right: 4px;
+   }
+
+   .icon-3 {
+      padding-right: 4px;
+   }
+
+   .card {
+      padding: 10px;
    }
 
    .Para-2 {
-      width: 100px;
-      font-size: 8px;
+      width: 130px;
+      font-size: 10px;
    }
 
    .second {
-      display: block;
-      justify-content: center;
-      align-items: center;
       width: 100%;
-      padding: 240px;
-      margin-left: -200px;
-      background-color: white;
+      height: 100%;
+      margin-top: 0;
+      padding-top: 0;
+      margin-bottom: 40px;
+      padding-bottom: 10px;
+   }
+
+   .head-3 {
+      margin-top: 100px;
    }
 
    .Heading-4 {
-      width: 260px;
       font-size: 14px;
-      margin-left: -57px;
+      padding-top: 30px;
+      width: 100%;
    }
-   .allCards{
-      display: block;
-      margin-left: -40px;
+
+   .allCards {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      flex-direction: column;
+      gap: 10px;
+      padding-bottom: 20px;
+      margin-bottom: 10px;
+
+   }
+
+   .card {
+      width: 80%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+      border: 1px solid black;
+   }
+
+   .para-3 {
+      padding-top: 10px;
+      width: 100%;
+      text-align: inherit;
+   }
+
+
+   .toogle {
+      padding: 10px;
+   }
+
+   .box {
+      padding-left: 10px;
+      margin-left: 4px;
+   }
+
+   .Heading-5 {
+      font-size: 18px;
+   }
+
+   .Third {
+      padding-top: 0px;
       margin-top: 0px;
-      margin-bottom: 160px;
-      padding:0px;
+      width: 100%;
+      height: 100%;
+   }
+
+   .Heading-6 {
+      font-size: 20px;
+   }
+
+   .pricePlan {
+      display: flex;
+      flex-direction: column;
+      gap: 60px;
+
+   }
+
+   .pp1 {
+      margin-bottom: 60px;
+      border-radius: 10px;
+      margin-top: -20px;
+      width: 70%;
+      height: 260px;
+   }
+
+   .fourth {
+      width: 100%;
+      height: 100%;
+   }
+
+   .Heading-7 {
+      font-size: 18px;
+   }
+
+   .para-5 {
+      font-size: 10px;
+      text-align: center;
+      width: 210px;
+   }
+
+   .review {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 20px;
+      gap: 20px;
+   }
+
+   .cCard {
+      width: 80%;
+      height: 220px;
+      margin-top: 10px;
+      padding-bottom: 20px;
+   }
+
+   .detail {
+      margin-top: 8px;
+   }
+
+   .Fifth {
+      width: 100%;
+      height: 100%;
+      margin-top: 60px;
+   }
+
+   .Heading-8 {
+      width: 100%;
+      font-size: 17px;
+   }
+
+   .imgCard {
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 130px;
+   }
+
+   .one-one {
+      width: 80%;
+      border: 1px solid rgb(189, 187, 187);
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(21, 0, 0, 0.2);
+   }
+
+   .Img-5 {
+      width: 100%;
+      height: 170px;
+   }
+
+   .txt {
+      font-size: 12px;
+   }
+
+   .Heading-9 {
+      font-size: 12px;
+   }
+
+   .para-8 {
+      font-size: 9px;
+   }
+
+   .Img-5-2 {
+      width: 100%;
+      height: 170px;
+   }
+
+   .one-one2 {
+      width: 80%;
+      margin-top: 20px;
+      border: 1px solid rgb(189, 187, 187);
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(21, 0, 0, 0.2);
+   }
+   
+.Sixth{
+   width: 100%;
+}
+
+   .footer {
+      margin-top: 200px;
+      background-color: rgba(19, 1, 1, 0.631);
+      width: 100%;
+      height: 100%;
+   }
+
+
+   .footer-sec {
+      display: flex;
+      flex-direction: column;
+      padding-left: 30px;
+      width: 100%
+   }
+
+   .Img-6 {
+      width: 80px;
+      margin-left: -20px;
+   }
+
+   .para-9 {
+      margin-bottom: 20px;
+      font-size: 10px;
+      color: #dcdee0;
+      width: 180px;
+   }
+
+   .para-10 {
+      color: rgba(194, 190, 190, 0.631);
+      width: 200px;
+      font-size: 12px;
+      line-height: 8px;
+   }
+
+   .Heading-10 {
+      font-size: 14px;
+      width: 200px;
+   }
+
+   .Heading-11 {
+      font-size: 10px;
+   }
+
+   .col1 {
+      width: 20%;
+   }
+
+   .col2 {
+      width: 20%;
+      padding-bottom: 20px;
+      padding-top: 10px;
+   }
+
+   .col3 {
+      width: 20%;
+      padding-bottom: 20px;
+   }
+
+   .col4 {
+      width: 20%;
+      padding-bottom: 10px;
+   }
+
+   .icon-9,
+   .icon-10,
+   .icon-11,
+   .icon-12 {
+      width: 20px;
+      padding: 4px;
+      color: rgb(211, 211, 215);
+   }
+
+   .fLine {
+      background-color: rgba(19, 1, 1, 0.631);
+   }
+
+   .Heading-11 {
+      background-color: rgba(19, 1, 1, 0.631);
+   }
+
+   .para-10-2 {
+      color: rgba(177, 173, 173, 0.631);
+      margin-top: 10px;
+      position: 10px;
+      font-size: 7px;
+      width: 80px;
+   }
+
+   .mail {
+      width: 160px;
+      height: 40px;
+   }
+
+   .fInput {
+      padding-top: 20px;
+   }
+
+   .btn-5 {
+      width: 200px;
+      height: 40px;
+   }
+
+   .menu-sec {
+      display: none;
+      background-color: #222324;
+      opacity: 0.8;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      width: 100%;
       height: 100vh;
+      position: fixed;
    }
-   .card{
+
+   .first-btn {
+      background-color: rgb(7, 7, 41);
       display: block;
-      width: 220px;
-      height: 100;
-      padding: 0;
-   }
-   .cardText{
-      font-size: 118px;
    }
 }

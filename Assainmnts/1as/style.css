@@ -6,11 +6,58 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
-
-.main {
+.main{
     background-color: #551ba9;
 }
 
+.first-btn{
+    display: none;
+    width: 80px;
+    height: 40px;
+    float: right;
+    background-color: #222324;
+    color: rgb(193, 177, 88);
+    border: none;
+    outline: none;
+    border-radius: 12px;
+}
+.menu-bar{
+    margin-left: 20px;
+    gap: 120px;
+}
+.menu-sec{
+    background-color: #18191a;
+    display: none;
+    text-align: center;
+}
+.munu-ank{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    color: gold;
+}
+.cross{
+  margin-top: 10px;
+  width: 30px;
+}
+.menu-btn{
+    width: 70px;
+    height: 30px;
+    background-color: #3ba0d5;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+.munu-ul ,li{
+    list-style: none;
+    padding-top: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 24px;
+    gap: 30px;
+}
 .Img-1 {
     width: 60px;
 }
@@ -18,6 +65,7 @@
 .nav {
     display: flex;
     justify-content: space-around;
+    background-color: #551ba9;
     gap: 10px;
     padding: 15px;
 }
@@ -48,6 +96,7 @@ a {
 /* ------------------ Hero Section Start ------------------ */
 
 .hero {
+    background-color: #551ba9;
     display: flex;
     height: 85vh;
 }
@@ -162,7 +211,6 @@ a {
 /* ------------------ Second Section Start ------------------ */
 
 .second {
-    height: 100vh;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -173,6 +221,7 @@ a {
 
 .Heading-4 {
     margin-top: -125px;
+    color: #222324;
     width: 450px;
     text-align: center;
     font-size: 30px;
@@ -237,6 +286,7 @@ a {
 .cardText:hover {
     background-color: #551ba9;
     color: white;
+    margin-top: 30px;
 }
 
 .Heading-5 {
@@ -387,16 +437,17 @@ a {
 .review {
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 15px;
     margin-top: 70px;
     padding: 10px;
 }
 
 .cCard {
+    margin-left: 10px;
     width: 330px;
     height: 200px;
     padding: 10px;
+    gap: 10px;
     border: 1px solid gainsboro;
     box-shadow: 0 0 10px rgba(12, 0, 0, 0.4);
     border-radius: 5px;
@@ -506,6 +557,7 @@ dd {
     border: 1px solid rgb(189, 187, 187);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(21, 0, 0, 0.2);
+    margin-left: 10px;
 }
 
 .Img-5 {
@@ -593,28 +645,44 @@ dd {
 .icon-10,
 .icon-11,
 .icon-12 {
-    padding: 10px;
-    color: rgb(211, 211, 215);
+     color: rgb(211, 211, 215);
 }
-
+.icon-10,
+.icon-11,
+.icon-12 {
+    margin-left: 10px;
+    padding: 10px;
+}
 .icon-9:hover {
+    border: 1px solid rgb(187, 185, 185);
+    border-radius: 40px;
     background-color: white;
     color: rgb(10, 10, 129);
+    padding-right: 20px;
 }
 
 .icon-10:hover {
+    border: 1px solid rgb(187, 185, 185);
+    border-radius: 40px;
     background-color: white;
     color: rgb(10, 10, 129);
+    padding-right: 20px;
 }
 
 .icon-11:hover {
+    border: 1px solid rgb(187, 185, 185);
+    border-radius: 40px;
     background-color: white;
     color: rgb(10, 10, 129);
+    padding-right: 20px;
 }
 
 .icon-12:hover {
+    border: 1px solid rgb(187, 185, 185);
+    border-radius: 40px;
     background-color: white;
     color: rgb(10, 10, 129);
+    padding-right: 20px;
 }
 
 .Para-11 {
@@ -648,7 +716,8 @@ dd {
 
 .fIcon {
     display: flex;
-    gap: 10px;
+    justify-content: space-around;
+    gap: 70px;
 }
 
 .footer {
